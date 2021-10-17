@@ -1,0 +1,72 @@
+body{
+    background: #000;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: block;
+    width: 450px;
+    padding: 5px;
+    margin: auto;
+}
+.primary-text{
+    color: rgb(255, 123, 0);
+}
+.header{
+     text-align: center;
+     font-size: 37px;
+     margin-bottom: 0px;
+}
+.sub-header{
+    text-align: center;  
+    font-size: 11px;
+    margin-top: 0px;
+    color: gray;
+}
+.text{
+    margin-top: 2rem;
+}
+.footer{
+    margin-top: 1.5rem;
+    font-size: 12px;
+}
+input{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    width: calc(100% - 0.5rem);
+    border: 1px solid rgb(170, 168, 167);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+input :focus {
+    outline: 2px solid #fff;
+}
+.sign_up{
+    display: inline-block ;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.8rem;
+    margin-right: 0.5rem;
+    font-size: 16px;
+}
+#log_in{
+    display: inline-block ;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color:black;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+    font-size: 16px;
+}
+
+

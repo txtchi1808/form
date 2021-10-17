@@ -1,0 +1,35 @@
+body{
+    background: rgb(17, 15, 105);
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3rem;
+}
+.container{
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+.button{
+    display: inline-block;
+    background: rgb(14, 12, 139);
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid rgb(0, 89, 255);
+    font-size: 11px;
+}
+.block{
+    background-color: rgb(14, 12, 139);
+    padding: 0.3rem;
+    border: 1px solid rgb(0, 89, 255);
+    margin-top: 1rem;
+}
+input{
+    width: calc(100% - 0.9rem);
+    padding: 0.4rem;
+}
+textarea{
+    width: calc(100% - 0.8rem);
+    padding: 0.4rem;
+}
